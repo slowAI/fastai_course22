@@ -8,9 +8,9 @@ channels:
   - pytorch
 dependencies:
   - black
-  - mypy
   - jupyter
   - matplotlib
+  - mypy
   - nbdev
   - pandas
   - pip
