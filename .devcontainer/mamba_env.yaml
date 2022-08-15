@@ -8,6 +8,8 @@ channels:
   - pytorch
 dependencies:
   - black
+  - fastai
+  - fastcore
   - jupyter
   - matplotlib
   - mypy
