@@ -1,0 +1,28 @@
+# Using an environment name other than "base" is not recommended!
+# Read https://github.com/mamba-org/micromamba-docker#multiple-environments
+# if you must use a different environment name.
+name: base
+channels:
+  - conda-forge
+  - fastai
+  - pytorch
+dependencies:
+  - black
+  - mypy
+  - jupyter
+  - matplotlib
+  - nbdev
+  - pandas
+  - pip
+  - plotly
+  - prophet
+  - pyopenssl
+  - pytorch
+  - requests
+  - seaborn
+  - statsmodels
+  - xgboost
+  # - cudatoolkit=11.6
+  - pip:
+      - catboost
+      - howdoi
