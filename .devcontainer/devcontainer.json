@@ -10,6 +10,11 @@
 			"VARIANT": "3.9"
 		}
 	},
+	// install ssh
+	"features": {
+		"sshd": "latest"
+	},
+
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.profiles.linux": {
@@ -57,5 +62,5 @@
 	// "postCreateCommand": "pip3 install -r requirements.txt",
 	"postCreateCommand": "echo Hello World",
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "vscode"
+	"remoteUser": "vscode"
 }
