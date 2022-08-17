@@ -37,6 +37,7 @@ RUN apt-get install \
     ca-certificates \
     git \
     htop \
+    ping \
     tree \
     wget \
     zsh
