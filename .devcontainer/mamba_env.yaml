@@ -14,7 +14,6 @@ dependencies:
   - matplotlib
   - mypy
   - nbdev
-  - nvitop
   - pandas
   - pip
   - plotly
@@ -29,3 +28,4 @@ dependencies:
   - pip:
       - catboost
       - howdoi
+      - nvitop

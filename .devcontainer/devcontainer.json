@@ -14,12 +14,11 @@
 	"features": {
 		"sshd": "latest"
 	},
-
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.profiles.linux": {
-			"bash": {
-				"path": "/bin/bash"
+			"zsh": {
+				"path": "/usr/bin/zsh"
 			}
 		},
 		// "terminal.integrated.defaultProfile.linux": "bash"
