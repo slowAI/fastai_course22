@@ -20,6 +20,7 @@ dependencies:
   - prophet
   - pyopenssl
   - pytorch
+  - python=3.10
   - requests
   - seaborn
   - statsmodels

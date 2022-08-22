@@ -55,7 +55,7 @@ RUN wget  https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh 
 RUN /bin/bash /tmp/miniconda.sh -b -p ${CONDA_DIR}
 
 # install mamba
-RUN conda install --quiet -c conda-forge -y mamba 
+RUN conda install --quiet -c conda-forge -y mamba
 
 # install mamba env
 COPY --chown=${USERNAME}:${USERNAME} "${CONDA_ENV_FILE}" /tmp/env.yaml
