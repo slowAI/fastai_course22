@@ -20,7 +20,7 @@ dependencies:
   - prophet
   - pyopenssl
   - pytorch
-  - python=3.10
+  - python=3.11
   - requests
   - seaborn
   - statsmodels
@@ -30,3 +30,5 @@ dependencies:
       - catboost
       - howdoi
       - nvitop
+      - fastkaggle
+      - timm

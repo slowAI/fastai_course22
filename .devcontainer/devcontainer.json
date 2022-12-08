@@ -42,7 +42,8 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"GitHub.copilot",
-		"ms-toolsai.jupyter"
+		"ms-toolsai.jupyter",
+		"innerlee.nvidia-smi"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [9000],
