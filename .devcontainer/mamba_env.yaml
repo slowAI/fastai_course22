@@ -17,15 +17,13 @@ dependencies:
   - pandas
   - pip
   - plotly
-  - prophet
   - pyopenssl
-  - pytorch
   - python=3.11
+  - pytorch
   - requests
   - seaborn
   - statsmodels
   - xgboost
-  # - cudatoolkit=11.6
   - pip:
       - catboost
       - howdoi
